@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html {
+    scroll-behavior:smooth;
+}
+body{
+    background-color: #000000;
+}
+h1,h2,h3,h4,h5,h6{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+/* Navbar & Sidebar */
+nav{
+    background-color: #0000006b;
+    backdrop-filter: blur(15px);
+}
+#buy-btn{
+    background-color: #31d11b; 
+    border-radius: 50px;
+}
+#buy-btn:hover{
+    background-color: #263b26; 
+    color: #5bfa56;
+}
+.nav-tab ul li a{
+    color:white;
+}
+.nav-tab ul li a:hover{
+    color:#5bfa56;
+}
+
+
+/* Hedear Title, Sub-title & Color Buttons */
+#video-fullpage{
+    max-height: 670px;
+    display: flex;
+}
+button{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    transition-duration: 0.4s;
+}
+.container-btn{
+    width: 100px;
+    padding: 5px;
+    gap: 10px;
+    border-radius: 30px;
+
+    /* For Centering */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#change-vid1{
+    background-color: #000000;
+    border-color: #cacaca;
+}
+#change-vid2{
+    background-color: #DDCB1B;
+    border-color: #cacaca;
+}
+#change-vid3{
+    background-color: #7A327B;
+    border-color: #cacaca;
+}
+/* hover effects on button change-vid */
+#change-vid1:hover, #change-vid2:hover, #change-vid3:hover{
+    background-color: #cacaca;
+}
+
+/* Section: description of the product*/
+#desc{
+    background-color: #131313;
+}
+#phone-model-name p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+/* Back/Front of phone panel */
+.row{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/* details - structure and design*/
+/* Back */
+.card{
+    border-radius: 30px;
+    background-color: #131313;
+}
+#cover-img{
+    height: 650px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+#capture-img{
+    border-radius: 15px;
+}
+#half-img{
+    height: 313px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+/* Front */
+#vid-container-half{
+    height: 310px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#vid-container-full{
+    height: 650px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* Parallax */
+.parallax-container{
+    height: 600px;
+}

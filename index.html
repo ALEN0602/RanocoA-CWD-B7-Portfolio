@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Gogle Fonts -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+    </style>
+
+    <title>Shift | Pathfinder V1</title>
+    <link rel="icon" href="image/S.png" type="image/x-icon">
+    
+</head>
+<body>
+
+    <!-- Navbar -->
+<header id="Shift">
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <div class="container" style="width: 90%;">
+                    <a href="#Shift" class="brand-logo left"><img src="image/S.png" alt="logo" height="40px" style="margin: 10px;"></a>
+                </div>
+                
+                <div class="nav-tab">
+                <!-- Stays on screen -->
+                <ul class="right">
+                        <li>
+                            <a href="#back">
+                                <i class="fa-solid fa-mobile fa-sm"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#front">
+                                <i class="fa-solid fa-mobile-screen fa-sm"></i></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a class="waves-effect waves-light btn" href="#buy" id="buy-btn">
+                                <span style="font-family: 'Roboto', sans-serif; font-weight: 400;">Buy</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<div class="container">
+    <!-- Phone Version Header -->
+        <h2 style="font-weight: 800; letter-spacing: 3px; margin-top: 20px;">Precision & Style.</h2>
+        <div class="divider grey darken-2" style="margin-bottom: 10px;"></div>
+
+    <div style="display: flex;">
+        <!-- Phone Model Name -->
+        <h6 style="line-height: 1vh;">Pathfinder V1</h6>
+        <!-- Color Change Buttons -->
+        <div class="container-btn">
+            <button id="change-vid1"></button>
+            <button id="change-vid2"></button>
+            <button id="change-vid3"></button>
+        </div>
+    </div>
+</div>
+<br>
+
+<!-- intro-video -->
+<section id="video-fullpage">
+    <video id="intro-vid" class="responsive-video" autoplay muted>
+        <source src="videos/Intro-vid.mp4" type="video/mp4">
+    </video>
+</section>
+
+<br id="buy"><br>
+
+<section id="desc">
+    <br>
+        <!-- Price and Phone Model Name -->
+        <div class="container center" id="phone-model-name">
+            <h4 style="letter-spacing: 3px; font-weight: 600;">Pathfinder V1</h4>
+                <p>₱50,000</p>
+
+            <br>
+
+            <a class="waves-effect waves-light btn" href="#buy" id="buy-btn">
+                <span style="font-family: 'Roboto', sans-serif; font-weight: 400;">Buy</span>
+            </a>
+        </div>
+    <br id="back">
+    <br>
+    <br>
+    <br>
+
+        <!-- Back of Phone Panel-->
+            <div class="row">
+                <div class="col s12 l4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="image/Processor.png" id="half-img">
+                        </div>
+                        <div class="card-reveal">
+                                <span class="card-title activator" style="font-weight: 700; line-height: 3vh;">DYNAMIC CORE-X<i class="fa-solid fa-xmark fa-s right"></i></span>
+                            <br>
+                                <p>At the heart of the Pathfinder 1 lies the powerful and cutting-edge processor, the Dynamic CoreX. Engineered to elevate your mobile experience.</p>
+                            <br><br>
+                                <p class="center" style="font-weight: 700;">Unleash Power. <br>Optimal Efficiency. <br>Versatile Performance.</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col s12">
+                            <div class="card">
+                                <div class="card-image">
+                                    <img class="materialboxed" data-caption="Stay connected, productive, and fully charged on your digital journey" src="image/Battery.png" id="half-img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="materialboxed" data-caption="Exudes sophistication in every aspect of its design." src="image/Back Design.png" id="cover-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="image/camera.png" id="cover-img">
+
+                            </div>
+                            <div class="card-reveal">
+                                    <span class="card-title activator" style="font-weight: 700; line-height: 3vh;">CRYSTAL CLEAR PHOTO<i class="fa-solid fa-xmark fa-s right"></i></span>
+                                <br>
+                                    <p>Pathfinder 1 is designed to capture stunning images in various scenarios, from breathtaking landscapes to dynamic action shots and exquisite portraits.</p>
+                                <br>
+                                    <img class="responsive-img" src="image/capture.png" id="capture-img">
+                                <br><br>
+                                    <p class="center" style="font-weight: 700;">Advanced Image Stabilization. <br>AI-Enhanced Photography. <br>Multiple Lens Options.</p>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+        <br>
+        <h3 class="center" style="font-weight: 800; letter-spacing: 3px; margin-top: 20px;" id="front">Immersive Visual Experience.</h3>
+        <br>
+        <br>
+
+        <!-- Front of Phone Panel-->
+        <div class="row" style="margin-bottom: 0%;">
+            <div class="col s12 m6 l4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="image/Durability.png" id="cover-img">
+
+                    </div>
+                    <div class="card-reveal">
+                            <span class="card-title activator" style="font-weight: 700; line-height: 3vh;">ROBUST BUILD<i class="fa-solid fa-xmark fa-s right"></i></span>
+                        <br>
+                            <p>The Pathfinder V1 features a robust and sturdy build, using high-quality materials that ensure long-lasting durability. From the reinforced frame to the scratch-resistant display.</p>
+                        <br>
+                            <img class="responsive-img" src="image/Journey.png" id="capture-img">
+                        <br><br>
+                            <p class="center" style="font-weight: 700;">Corning Gorilla Glass Protection. <br>Drop-Tested Design. <br>Extended Warranty and Support. <br>Military-Grade Certification.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m6 l4">
+                <div class="card" id="vid-container-full">
+                    <video class="video" autoplay muted loop>
+                        <source src="videos/display.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+            <div class="col s12 l4">
+                <div class="card" id="vid-container-half">
+                    <video class="responsive-video" autoplay muted loop>
+                        <source src="videos/internet.mp4" type="video/mp4">
+                    </video>
+                </div>
+
+                <div class="row">
+                    <div class="col s12">
+                        <div class="card">
+                            <div class="card-image">
+                                <img class="materialboxed" data-caption="Withstand the elements with its water and dust resistance capabilities." src="image/water.png" id="half-img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+<div class="parallax-container">
+    <div class="parallax"><img src="image/Obsidian.png"></div>
+</div>
+
+<div class="parallax-container">
+    <div class="parallax"><img src="image/Honeybee.png"></div>
+</div>
+
+<div class="parallax-container">
+    <div class="parallax"><img src="image/Shimmer.png"></div>
+</div>
+
+<footer class="page-footer black" id="about">
+    <div class="container">
+    <div class="row" style="margin: 0%;">
+        <div class="col l6" style="width: 150px; padding: 5px;">
+            <img src="image/S.png" alt="logo" height="100px" style="margin: 10px;">
+        </div>
+        <div class="col s12 l6" style="padding: 15px;">
+            <p>We are a movement, a community of tech enthusiasts, dreamers, and doers who are committed to making a difference. Join us on this exciting journey as we shift the world with innovation and redefine the way you connect. Shift - Where Possibilities Unfold.</p>
+        </div>
+    </div>
+    </div>
+    <div class="footer-copyright black">
+        <div class="container">
+        © 2023 Copyright
+        </div>
+    </div>
+</footer>
+
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <script>
+            $(document).ready(function() {
+
+                //Materilbox Init
+                $('.materialboxed').materialbox();
+                //Parallax Init
+                $('.parallax').parallax();
+
+        var videoElement = $("#intro-vid");
+        $("#change-vid1").click(function() {
+            videoElement.attr("src", "/videos/Obsidian-vid.mp4");
+        });
+        $("#change-vid2").click(function() {
+            videoElement.attr("src", "/videos/Honeybee-vid.mp4");
+        });
+        $("#change-vid3").click(function() {
+            videoElement.attr("src", "/videos/Shimmer-vid.mp4");
+        });
+    });
+</script>
+
+</body>
+</html>
